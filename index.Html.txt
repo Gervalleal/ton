@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GERWAL IMPORT - PARCEIRO TON</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0B8F2B, #15C940);
+      color: white;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-top: 15px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .product-section {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin: 30px auto;
+      padding: 20px;
+      max-width: 400px;
+    }
+
+    .product-section img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .description {
+      font-size: 16px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #FFD700, #FFB300);
+      color: #000;
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 18px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      animation: pulse 1.5s infinite;
+    }
+
+    .buy-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px rgba(255, 215, 0, 1);
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 15px rgba(255, 215, 0, 0.7); }
+      50% { box-shadow: 0 0 30px rgba(255, 215, 0, 1); }
+      100% { box-shadow: 0 0 15px rgba(255, 215, 0, 0.7); }
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11458053983">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11458053983');
+</script>
+</head>
+<body>
+
+  <header>
+    <img src="sua-imagem.jpg" alt="Sua Foto" />
+    <h1>Promoção Black Friday Ton T3 Smart</h1>
+    <p>Imprime comprovante, frete grátis e até 12x sem juros!</p>
+  </header>
+
+  <div class="product-section">
+    <img src="maquininha-ton.jpg" alt="Maquininha Ton T3 Smart" />
+    <div class="description">
+      <p><strong>Ton T3 Smart</strong> — maquininha moderna com comprovante impresso, Wi-Fi e chip grátis. Ideal para quem quer agilidade e credibilidade nas vendas.</p>
+      <p><strong>Preço:</strong> A partir de <span style="color:#0B8F2B; font-weight:bold;">R$153</span> em até <strong>12x sem juros</strong>.</p>
+    </div>
+    <a href="https://seu-link-de-afiliado.com" class="buy-btn">💳 Comprar Agora</a>
+  </div>
+
+  <footer>
+    © 2025 Sua Loja Afiliada Ton — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
